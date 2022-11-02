@@ -4,7 +4,7 @@
 #
 Name     : R-jomo
 Version  : 2.7.4
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/jomo_2.7-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/jomo_2.7-4.tar.gz
 Summary  : Multilevel Joint Modelling Multiple Imputation
