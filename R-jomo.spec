@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-jomo
-Version  : 2.7.5
-Release  : 19
-URL      : https://cran.r-project.org/src/contrib/jomo_2.7-5.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/jomo_2.7-5.tar.gz
+Version  : 2.7.6
+Release  : 20
+URL      : https://cran.r-project.org/src/contrib/jomo_2.7-6.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/jomo_2.7-6.tar.gz
 Summary  : Multilevel Joint Modelling Multiple Imputation
 Group    : Development/Tools
 License  : GPL-2.0
@@ -42,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679959142
+export SOURCE_DATE_EPOCH=1681751376
 
 %install
-export SOURCE_DATE_EPOCH=1679959142
+export SOURCE_DATE_EPOCH=1681751376
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
